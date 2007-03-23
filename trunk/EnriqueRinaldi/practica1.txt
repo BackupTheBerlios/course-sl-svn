@@ -1,0 +1,121 @@
+http://sourceforge.net/projects/jbpm/
+
+jBpm is a WorkFlow Management System. Business processes must be expressed in process archives in a simple 
+and powerfull language. Users or systems perform single steps of the process. jBpm maintains the state, logs and performs all automated actions.
+
+
+Project Admins: aguizar, koentsje, tombaeyens
+Operating System: OS Independent (Written in an interpreted language)
+License: GNU Library or Lesser General Public License (LGPL)
+Category: Internet, Office/Business, Information Analysis, Software Development, Clustering, Distributed Computing
+
+
+    * Project Admins : aguizarProject Admin, koentsjeProject Admin, tombaeyensProject Admin
+    * Developers : 41
+    * Development Status : 5 - Production/Stable
+    * Intended Audience : Developers, Information Technology, Other Audience
+    * License : GNU Library or Lesser General Public License (LGPL)
+    * Operating System : OS Independent (Written in an interpreted language)
+    * Programming Language : Java
+    * Topic : Internet, Office/Business, Information Analysis, Software Development, Clustering, Distributed 
+		Computing
+    * Translations : Dutch, English
+    * Project UNIX name : jbpm
+    * Registered : 2003-01-02 01:47
+    * Activity Percentile (last week) : 99.53
+    * View project activity statistics
+    * View list of RSS feeds available for this project
+
+
+
+jbpm-cvs Archives 2138 messages
+Approximate subscriber count: 45 
+(go to Subscribe/Unsubscribe/Preferences) 
+informs about cvs-commits and that kind of stuff 
+
+jbpm-users Archives 58 messages 
+Approximate subscriber count: 320 
+(go to Subscribe/Unsubscribe/Preferences) 
+informs users about new releases, documentation and other major news about jBpm 
+
+Document E04
+
+SourceForge.net: CVS (Version Control for Source Code)
+
+Table of Contents
+
+    * E04- 01 Overview
+    * E04- 02 Connection Information
+    * E04- 03 CVS Documentation
+    * E04- 04 CVS Terminology
+    * E04- 05 Using CVS
+    * E04- 06 Importing Data into CVS
+    * E04- 07 Sync Delay
+    * E04- 08 SourceForge.net CVS Environment
+    * E04- 09 Pre- and Post-Commit Scripts
+    * E04- 10 Commit Notifications via Email (syncmail)
+    * E04- 11 Permissions
+    * E04- 12 Web-based Repository Browsing (ViewCVS)
+    * E04- 13 Rsync
+    * E04- 14 Nightly Tarballs
+    * E04- 15 Repository Mirroring
+    * E04- 16 Repository Upkeep and Management
+    * E04- 17 CVS Limitations
+    * E04- 18 Support
+
+Primeros mensajes:
+
+internationalisation
+By: Tom Baeyens (tombaeyensProject Admin) - 2003-01-09 02:56
+A web application can use the struts internationalisation capabilities. 2 questions remain open for me : 
+ 
+1) What is the best way to internationalise the error-messages that originate from the business components such as process execution, process definition and organisation. 
+ 
+2) How can we add internationalisation to process definitions. I thought of putting resource files in the process definition jar file. But how would this be handled internally. 
+
+RE: internationalisation
+By: Tom Baeyens (tombaeyensProject Admin) - 2003-01-21 00:16
+1) Create exceptions that provide getters for their specific information. In the web-component the exceptions are mapped to msg-keys (in our case the exception's classname), the specific exception data-items are used as values for the generation of the internationalized msg. 
+ 
+2) Still thinking about it 
+
+RE: internationalisation
+By: Mingfai Ma (mingfai) - 2003-02-04 09:41
+i just realize there is a developer forum. 
+ 
+i have not get to into the depth that you're thinking about yet. For the presentation, Struts is almost the de facto standard for web, and it can handle the error message presentation very well. However, what if a user want to integrate this workflow system with a non-struts application? this would create some trouble. 
+ 
+I would propose to use a light weight approach with JSTL (it's "expression language") instead. If Struts will be used, it has to be designed in a way that user can modify the application and replace the struts tag easily.  
+ 
+RE: internationalisation
+By: Corby (corbySourceForge.net Donor) - 2003-02-07 10:06
+I would not suggest throwing out Struts tags altogether. The Struts html tags support the MVC framework. Throwing out the framework in the name of 'portability' is not a great tradeoff, because of the increase in development time and code complexity. 
+ 
+But I would recommend using JSTL tags instead of Struts tags where appropriate, particularly the core and format libraries. Two reasons for this: 
+ 
+1) The JSTL tags provide richer functionality, including more powerful internationalization features 
+ 
+2) Many people expect container developers to optimize their containers for JSTL performance. Since jbpm is targeted toward larger enterprise deployments, this can be a big deal.
+
+Herramientas
+
+ZK - Simply Ajax 
+OpenWFE 
+Azureus 
+XOOPS Dynamic Web CMS 
+jEdit 
+
+a) jBPM jPDL 3 jbpm-jpdl-3.2.Beta2 February 6, 2007 
+b) jBPM Process Designer jbpm-jpdl-designer-3.1.0.alpha3 February 27, 2007
+
+Historia
+
+JBoss jBPM enables the creation of business processes that coordinate between people, applications and services. Designed for the mass market as well as supporting enterprise scale applications, jBPM bring process automation to a much wider set of business problems ranging from embedded workflow to enterprise business process orchestration and BPM. 
+
+JBoss jBPM is a platform for multiple process languages supporting workflow, BPM, and process orchestration. Today, JBoss jBPM supports two process languages: 
+
+jPDL is a process language to implement BPM and workflow in Java. jPDL combines human task management with workflow process constructs that can be built in Java applications.
+
+BPEL provides process orchestration: the ability to combine web services into a process execution flow. BPEL 1.1 support is in Beta Test and not currently supported in the JBoss Subscription. BPEL will be added to the JBoss jBPM Subscription in the future.
+
+
