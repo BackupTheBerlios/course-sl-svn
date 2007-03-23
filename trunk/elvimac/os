@@ -1,0 +1,34 @@
+http://sourceforge.net/projects/fckeditor
+
+• Objetivo: ¿cuál es el objetivo del proyecto? ¿qué se pretende conseguir?
+
+    Se trata de un procesador de textos online para ASP, ASP.NET, ColdFusion, PHP, Java and JavaScript
+    Active-FoxPro Lasso Perl Python.
+    Lo que se pretende consegir es tener una aplicacion a laque acceder por internet para todos los 
+    lenguajes anteriores y no tener que molestarse en hacer ninguna instalacion en el ordenador.
+    Furnciona con: Firefox, Mozilla, Netscape y IE.
+
+• Historia: ¿cuál es la historia del proyecto? ¿cuándo se inició? ¿porqué?
+   30-07-2003
+
+• Estado: ¿cuál es el estado del proyecto? ¿como ha sido su evolución?
+    Actualmente el estado del la version es estable y ha sido liberada su version 2.4 con fecha del 29 de Enero del 2007. 
+
+• Herramientas: ¿qué herramientas software utilizan? ¿qué sistema de control de versiones utilizan? ¿qué lenguajes de programación utilizan?
+    ASP, C#, Cold Fusion, Java, JavaScript, PHP
+    Usa las herramientas standard para el desarollo de software.
+
+• Decisiones: ¿quién toma las decisiones en el proyecto? ¿cómo se coordinan para tomar esas decisiones?
+    Las decisiones las toma el administrador del proyecto. y ademas de él estan los miembros del proyecto que han aportado
+    dinero al mismo y miembros que estan encargados de recoger las donaciones. 
+    Cada miembro del proyecto tiene su categoria dentro del mismo:
+    Project Manager.
+    Translator.
+    Developer.
+    Advisor/Mentor/Consultant
+
+
+
+ GNU Lesser General Public License
+
+ 
