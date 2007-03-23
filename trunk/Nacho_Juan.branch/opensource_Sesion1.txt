@@ -1,0 +1,46 @@
+
+QUIEN HAYA HECHO ESTO ESTA MAL DE LA CABEZA, bueno vale no esta mal solo un poco palla...
+
+Los Autores: Quien haya puesto este comentario no tiene ni pajolera idea.
+
+                                                     Fdo: Los autores.
+
+Practica 1
+Introduccion a la Tecnologia Open Source
+Practica realizada por: Juan Antonio Bustamante Feo
+			Ignacio Pardo Ballester
+
+1. Elección del proyecto
+
+Se debe elegir un proyecto de software libre que tenga las siguientes características:
+• Debe tener una antigüedad de al menos 2 años
+• Debe haber al menos 3 personas que participen en él
+• Debe utilizar un sistema de control de versiones (subversión, CVS,...)
+• Debe utilizar al menos una lista de correo
+• Debe tener una licencia libre1. Elección del proyecto
+
+	Proyecto: aMule - Cliente eMule P2P para cualquier plataforma.
+
+	Objetivo: ¿cuál es el objetivo del proyecto? ¿Qué se pretende conseguir?
+
+El "eMule para cualquier plataforma" o aMule, es como un cliente eMule para redes ed2k, con soporte para Linux, MacOS y Win32. Proviene del proyecto xMule para dirigirlo hacia una nueva dirección y calidad. Utiliza las wxWidgets para soporte multiplataforma.
+
+	Historia: ¿Cuál es la historia del proyecto? ¿Cuándo se inició? ¿Porqué?
+
+La primera versión aparece en Septiembre del 2003 y evoluciona del antiguo proyecto xMule para conseguir una aplicación con posibilidad de soporte multiplataforma.
+
+	Estado: ¿cuál es el estado del proyecto? ¿Como ha sido su evolución?
+
+Es un proyecto actualmente abierto, o que continúa activo, y que se encuentra en su 5ª versión estable.
+Este producto ha estado en continua evolución en sus tres años de historia con aproximadamente unas 30 evoluciones desde su creación.
+
+	Herramientas: ¿Qué herramientas software utilizan? ¿Qué sistema de
+Control de versiones utilizan? ¿Qué lenguajes de programación utilizan?
+
+El lenguaje de programación utilizado es C, adaptado o modificado por los programadores para su uso por parte de todos de una misma manera.
+
+Para el control de versiones utilizan el CVS Open source.
+
+	Decisiones: ¿quién toma las decisiones en el proyecto? ¿Cómo se coordinan para tomar esas decisiones?
+
+Dentro del equipo de trabajo se distinguen varios puestos, los “desarrolladores” (Devolopers), los “probadores” (Testers), y los miembros especiales y otros. Entre los miembros especiales se encuentra el creador del proyecto. Cada uno de los grupos se dedica a una tarea especifica, y cada uno de sus miembros tiene unas tareas que desarrolla.
